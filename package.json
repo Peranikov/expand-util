@@ -7,7 +7,7 @@
     "test": "test"
   },
   "scripts": {
-    "test": "mocha -R spec"
+    "test": "PATH=./node_modules/.bin:$PATH; mocha -R spec"
   },
   "repository": {
     "type": "git",
