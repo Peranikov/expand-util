@@ -1,0 +1,27 @@
+{
+  "name": "expand-util",
+  "version": "0.0.1",
+  "description": "Utility expand",
+  "main": "./lib/expand_util",
+  "directories": {
+    "test": "test"
+  },
+  "scripts": {
+    "test": "mocha"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/Peranikov/expand-util"
+  },
+  "keywords": [
+    "util"
+  ],
+  "author": "Peranikov",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/Peranikov/expand-util/issues"
+  },
+  "devDependencies": {
+    "expect": "0.0.2"
+  }
+}
