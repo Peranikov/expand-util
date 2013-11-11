@@ -22,6 +22,6 @@
     "url": "https://github.com/Peranikov/expand-util/issues"
   },
   "devDependencies": {
-    "expect": "0.0.2"
+    "expect.js": "0.2.0"
   }
 }
