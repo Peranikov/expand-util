@@ -1,6 +1,6 @@
 {
   "name": "expand-util",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "description": "expand-util is expanded the utility of the Node.js",
   "main": "./lib/expand_util",
   "directories": {
