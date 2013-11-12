@@ -3,7 +3,7 @@
 expand-util is expanded the utility of the Node.js
 
 [![Build Status](https://travis-ci.org/Peranikov/expand-util.png?branch=master)](https://travis-ci.org/Peranikov/expand-util)
-
+[![NPM version](https://badge.fury.io/js/expand-util.png)](http://badge.fury.io/js/expand-util)
 
 ```js
 util.format('%s', 'foo');    // Original API
