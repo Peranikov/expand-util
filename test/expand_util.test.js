@@ -15,4 +15,12 @@ describe('isJSON', function() {
   it("JSON形式以外の文字列が渡された場合、falseを返すべき", function() {
     expect(util.isJSON('Dummy')).to.not.be.ok();
   });
+  
+  it("nullが渡された場合、falseを返すべき", function() {
+    expect(util.isJSON(null)).to.not.be.ok();
+  });
+  
+  it("undefinedが渡された場合、falseを返すべき", function() {
+    expect(util.isJSON(undefined)).to.not.be.ok();
+  });
 });
